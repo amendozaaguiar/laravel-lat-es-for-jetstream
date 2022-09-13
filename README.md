@@ -4,7 +4,7 @@
 
 # Laravel Español para Jetstream
 
-Paquete de traducciones en español para Laravel 8 con Jetstream. Este paquete te agrega a tu proyecto los ficheros de traducciones en español que Laravel 8 con Jetstream trae por defecto.
+Paquete de traducciones en español para Laravel con Jetstream. Este paquete te agrega a tu proyecto los ficheros de traducciones en español que Laravel con Jetstream trae por defecto.
 
 ## Versiones
 
