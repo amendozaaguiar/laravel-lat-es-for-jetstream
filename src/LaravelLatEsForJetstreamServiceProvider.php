@@ -17,7 +17,7 @@ class LaravelLatEsForJetstreamServiceProvider extends ServiceProvider
     {
         $this->publishes(
             [__DIR__ . '/../resources/lang' => lang_path()],
-            'laravel-lat-es-for-jetstream-lang'
+            'laraveles-spanish-for-jetstream-lang'
         );
 
         if ($this->app->runningInConsole()) {

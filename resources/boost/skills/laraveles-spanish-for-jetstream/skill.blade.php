@@ -1,5 +1,5 @@
 ---
-name: laravel-lat-es-for-jetstream
+name: laraveles-spanish-for-jetstream
 description: >
   Traducciones al español latinoamericano para Laravel con Jetstream.
   Cubre auth.php, pagination.php, passwords.php, validation.php EN lang/es/
@@ -7,7 +7,7 @@ description: >
   Comandos artisan: laravellates-jetstream:install y laravellates-jetstream:check.
 ---
 
-# laravel-lat-es-for-jetstream
+# laraveles-spanish-for-jetstream
 
 Paquete de traducciones al español latinoamericano para Laravel + Jetstream.
 
@@ -63,18 +63,18 @@ Compara `lang/en/` con `lang/es/` (archivos PHP) y valida `lang/es.json`:
 
 ## Instalación en proyecto
 ```bash
-composer require amendozaaguiar/laravel-lat-es-for-jetstream
+composer require amendozaaguiar/laraveles-spanish-for-jetstream
 php artisan laravellates-jetstream:install
 ```
 
 ## Publicar tag en composer.json
 ```json
-"amendozaaguiar/laravel-lat-es-for-jetstream": "^1.0"
+"amendozaaguiar/laraveles-spanish-for-jetstream": "^1.0"
 ```
 
 ## ServiceProvider
 `Amendozaaguiar\LaravelLatEsForJetstream\LaravelLatEsForJetstreamServiceProvider`
-- Publica con tag: `laravel-lat-es-for-jetstream-lang`
+- Publica con tag: `laraveles-spanish-for-jetstream-lang`
 - Destino: `lang_path()` (directorio `lang/` del proyecto Laravel)
 
 ## Compatibilidad

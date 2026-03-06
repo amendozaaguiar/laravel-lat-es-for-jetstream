@@ -1,5 +1,5 @@
 {
-    "name": "amendozaaguiar/laravel-lat-es-for-jetstream",
+    "name": "amendozaaguiar/laraveles-spanish-for-jetstream",
     "description": "Archivos de traducción al español latinoamericano para Laravel con Jetstream (auth, pagination, passwords, validation + todas las cadenas de Jetstream).",
     "keywords": [
         "laravel",
@@ -10,7 +10,7 @@
         "localización",
         "latin america"
     ],
-    "homepage": "https://github.com/amendozaaguiar/laravel-lat-es-for-jetstream",
+    "homepage": "https://github.com/amendozaaguiar/laraveles-spanish-for-jetstream",
     "type": "library",
     "license": "MIT",
     "authors": [

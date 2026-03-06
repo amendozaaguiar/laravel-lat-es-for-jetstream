@@ -15,7 +15,7 @@ class InstallLaravelLatEsForJetstream extends Command
     {
         Artisan::call('vendor:publish', [
             '--provider' => 'Amendozaaguiar\LaravelLatEsForJetstream\LaravelLatEsForJetstreamServiceProvider',
-            '--tag'      => 'laravel-lat-es-for-jetstream-lang',
+            '--tag'      => 'laraveles-spanish-for-jetstream-lang',
         ]);
 
         $this->info('✓ Traducciones de Laravel + Jetstream en Español instaladas correctamente.');

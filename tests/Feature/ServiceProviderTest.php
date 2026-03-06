@@ -13,10 +13,10 @@ it('el ServiceProvider es una instancia de ServiceProvider', function () {
     expect($provider)->toBeInstanceOf(ServiceProvider::class);
 });
 
-it('el tag laravel-lat-es-for-jetstream-lang está registrado', function () {
+it('el tag laraveles-spanish-for-jetstream-lang está registrado', function () {
     $paths = collect(ServiceProvider::pathsToPublish(
         LaravelLatEsForJetstreamServiceProvider::class,
-        'laravel-lat-es-for-jetstream-lang'
+        'laraveles-spanish-for-jetstream-lang'
     ));
     expect($paths)->not->toBeEmpty();
 });
@@ -24,7 +24,7 @@ it('el tag laravel-lat-es-for-jetstream-lang está registrado', function () {
 it('el tag publica al directorio lang', function () {
     $paths = ServiceProvider::pathsToPublish(
         LaravelLatEsForJetstreamServiceProvider::class,
-        'laravel-lat-es-for-jetstream-lang'
+        'laraveles-spanish-for-jetstream-lang'
     );
     $destination = array_values($paths)[0] ?? null;
     expect($destination)->toContain('lang');
@@ -50,14 +50,14 @@ it('existe el directorio resources/boost/skills', function () {
 });
 
 it('existe el archivo skill.blade.php', function () {
-    $skill = __DIR__ . '/../../resources/boost/skills/laravel-lat-es-for-jetstream/skill.blade.php';
+    $skill = __DIR__ . '/../../resources/boost/skills/laraveles-spanish-for-jetstream/skill.blade.php';
     expect(file_exists($skill))->toBeTrue();
 });
 
 it('skill.blade.php tiene frontmatter YAML válido', function () {
-    $skill   = __DIR__ . '/../../resources/boost/skills/laravel-lat-es-for-jetstream/skill.blade.php';
+    $skill   = __DIR__ . '/../../resources/boost/skills/laraveles-spanish-for-jetstream/skill.blade.php';
     $content = file_get_contents($skill);
-    expect($content)->toContain('name: laravel-lat-es-for-jetstream')
+    expect($content)->toContain('name: laraveles-spanish-for-jetstream')
         ->toContain('description:');
 });
 

@@ -1,8 +1,8 @@
-# laravel-lat-es-for-jetstream
+# laraveles-spanish-for-jetstream
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/amendozaaguiar/laravel-lat-es-for-jetstream.svg?style=flat-square)](https://packagist.org/packages/amendozaaguiar/laravel-lat-es-for-jetstream)
-[![Total Downloads](https://img.shields.io/packagist/dt/amendozaaguiar/laravel-lat-es-for-jetstream.svg?style=flat-square)](https://packagist.org/packages/amendozaaguiar/laravel-lat-es-for-jetstream)
-[![Tests](https://github.com/amendozaaguiar/laravel-lat-es-for-jetstream/actions/workflows/tests.yml/badge.svg)](https://github.com/amendozaaguiar/laravel-lat-es-for-jetstream/actions/workflows/tests.yml)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/amendozaaguiar/laraveles-spanish-for-jetstream.svg?style=flat-square)](https://packagist.org/packages/amendozaaguiar/laraveles-spanish-for-jetstream)
+[![Total Downloads](https://img.shields.io/packagist/dt/amendozaaguiar/laraveles-spanish-for-jetstream.svg?style=flat-square)](https://packagist.org/packages/amendozaaguiar/laraveles-spanish-for-jetstream)
+[![Tests](https://github.com/amendozaaguiar/laraveles-spanish-for-jetstream/actions/workflows/tests.yml/badge.svg)](https://github.com/amendozaaguiar/laraveles-spanish-for-jetstream/actions/workflows/tests.yml)
 [![PHP Version](https://img.shields.io/badge/php-%5E8.2-blue?style=flat-square)](https://php.net)
 [![Laravel](https://img.shields.io/badge/Laravel-10%20|%2011%20|%2012-red?style=flat-square)](https://laravel.com)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
@@ -26,7 +26,7 @@ Incluye:
 ## Instalación
 
 ```bash
-composer require amendozaaguiar/laravel-lat-es-for-jetstream
+composer require amendozaaguiar/laraveles-spanish-for-jetstream
 ```
 
 ### Publicar las traducciones
@@ -128,7 +128,7 @@ En tu `boost.json`:
 ```json
 {
     "packages": [
-        "amendozaaguiar/laravel-lat-es-for-jetstream"
+        "amendozaaguiar/laraveles-spanish-for-jetstream"
     ]
 }
 ```
