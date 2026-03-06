@@ -1,20 +1,16 @@
 <?php
-namespace Laraveles\Spanish\Tests;
 
-use Laraveles\Spanish\SpanishServiceProvider;
+namespace Amendozaaguiar\LaravelLatEsForJetstream\Tests;
+
+use Amendozaaguiar\LaravelLatEsForJetstream\LaravelLatEsForJetstreamServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
-abstract class TestCase extends Orchestra
+class TestCase extends Orchestra
 {
-    /**
-     * @param \Illuminate\Foundation\Application $app
-     *
-     * @return array
-     */
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [
-            SpanishServiceProvider::class,
+            LaravelLatEsForJetstreamServiceProvider::class,
         ];
     }
 }
